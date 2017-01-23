@@ -1,17 +1,4 @@
-$.ajax({
-  url: "http://documentup.com/compiled",
-  dataType: "jsonp",
-  data: {
-    content: "# test",
-    name: "Test JSONP!"
-  },
-  success: function(resp){
-    // `status` is always provided
-    if (resp.status == 200) {
-      // Write to your document
-      document.open();
-      document.write(resp.html);
-      document.close();
-    }
-  }
-});
+name: Emeria
+twitter:
+  - cgracia
+travis: true
