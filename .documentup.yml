@@ -1,5 +1,5 @@
 $.ajax({
-  url: "http://documentup.com/recompile",
+  url: "http://documentup.com/compiled",
   dataType: "jsonp",
   data: {
     content: "# test",
