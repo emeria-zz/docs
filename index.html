@@ -3,7 +3,17 @@
   <head>
     <script src="documentup.min.js"></script>
     <script>
-      DocumentUp.document("emeria/docs");
+      DocumentUp.document({
+      repo:  "emeria/docs",
+      name: "Emeria Docs",
+      twitter: [
+        "cgracia",
+        "DocumentUp"
+      ],
+      afterRender: function(){
+        alert("rendered");
+      }
+    });
     </script>
   </head>
   <body></body>
